@@ -1,0 +1,308 @@
+"",,,,,Travel Expense Reimbursement Claim,,,,
+"",,,,,Domestic 2020,,,,
+"",Name and Address:,,,,"Tomáš Sak, Ed. Beneše 31, Plze?",,,,
+"",Start of Journey: 08/07/2020,,,at,09:30 hh:mm End: 08/07/2020 at,19:00,,hh:mm,
+"",Project-nr./Occasion/Destination:,,,,cz.10 / job interview,,,,
+"",Vehicle: Company Car,,X,Private Car,Train Airplane,,,,
+"",,,,,4AL4565,,,,
+"",Food expenses where provided by MicroNova.,,,,,,,,
+"",,,,,,Gross,,,
+"",,,,,,,,VAT,Net Amount
+"",,,,,,Amount,,,
+I.,Cost of Transport,,,,,,,,
+"","Train ticket(s), receipt enclosed",,,,,0.00 K?,,,0.00 K?
+"","Flight ticket, receipt enclosed",,,,,0.00 K?,,,0.00 K?
+"","Cost of company car usage (petrol/oil etc.), receipts enclosed",,,,,0.00 K?,,,0.00 K?
+"",Distance of private car usage,,,,,,,,
+"",,,km:,,"324 = 2,082.02 K?",,,,
+"",,,,,"2,082.02 K?","2,082.02 K?",,,"2,082.02 K?"
+II.,Expenses for accomodation and food payed by employer,,,,,,,,
+"",,,,on day of,on day of,,,,
+"",total,,,,,,,,
+"",,,,arrival,departure,,,,
+"",Accomodation costs per day,,,,= 0.00 K?,,,,
+"",Breakfast per day 0,,,,= 0.00 K?,,,,
+"",Lunch per day 0,,,,= 0.00 K?,,,,
+"",Dinner per day 0,,,,= 0.00 K? 0.00 K?,0.00 K?,,0.00 K?,0.00 K?
+III. Meal Allowance,,,,,,,,,
+"",Whole days (24 h) 0 allowance,,,0.00 K?,0.00 K? Tage getrennt 0,,,,
+"",Day of arrival 1 allowance,,,87.00 K?,87.00 K? Tage zusammen FALSE,,,,
+"",Day of departure 0 allowance,,,0.00 K?,0.00 K?,,,,
+"",,,,,87.00 K?,87.00 K?,,,87.00 K?
+IV. Curtailment,,,,,,,,,
+"",,,,Arrival,24h Departure,,,,
+"",Breakfast,,,0.00 K?,0.00 K? 0.00 K?,,,,
+"",Lunch,,,0.00 K?,0.00 K? 0.00 K?,,,,
+"",Dinner,,,0.00 K?,0.00 K? 0.00 K?,,,,
+"",Custom,,,0.00 K?,0.00 K? 0.00 K? 0.00 K?,0.00 K?,,,0.00 K?
+V.,additional travel expenses,,,,0.00 K?,0.00 K?,,0.00 K?,0.00 K?
+"",,,,,Total Amount:,"2,169.02 K?",,0.00 K?,"2,169.02 K?"
+"",31/07/2020,,,,./. Prepayment,,,,
+"",Date Signature (Applicant),,,,,,,,
+"",,,,,Final,,,,
+"",,,,,Payment/,"2,169.02 K?",,,
+"",Approved:,,,,,,,,
+"",,,,,Overpayme,,,,
+"",Signature (Approver),,,,,,,,
+"",,,,,,,,"#VALUE!",
+"",,Usage of private car 2020 cz_travelexpenses_1v11,,,,
+"",,,,foreign fuel,consumption of,
+"",,,,costs per litre,petrol,driving
+"",,kilometers way to driving kilometers,,,,
+Date,Departure (address),Destination (address),used fuel,regarding,according to,expenses
+"",,driven work distance to settle,,,,
+"",,,,enclosed,vehicle,Kc
+"",,,,receipt €,registration,
+08/07/2020,"E.Benese 540/31, Plzen, 30100","Šafa?íkova 277, Mladá Boleslav, 29301 162 0 0 162",diesel,0.00 €,7.0,"1,041.01 K?"
+08/07/2020,"Šafa?íkova 277, Mladá Boleslav, 29301","E.Benese 540/31, Plzen, 30100 162 0 0 162",diesel,0.00 €,7.0,"1,041.01 K?"
+"",,0 0 0,,0.00 €,,0.00 K?
+"",,0 0 0,,0.00 €,,0.00 K?
+"",,0 0 0,,0.00 €,,0.00 K?
+"",,0 0 0,,0.00 €,,0.00 K?
+"",,0 0 0,,0.00 €,,0.00 K?
+"",,0 0 0,,0.00 €,,0.00 K?
+"",,0 0 0,,0.00 €,,0.00 K?
+"",,0 0 0,,0.00 €,,0.00 K?
+"",,0 0 0,,0.00 €,,0.00 K?
+"",,0 0 0,,0.00 €,,0.00 K?
+"",,0 0 0,,0.00 €,,0.00 K?
+"",,0 0 0,,0.00 €,,0.00 K?
+"",,0 0 0,,0.00 €,,0.00 K?
+"",,0 0 0,,0.00 €,,0.00 K?
+"",,0 0 0,,0.00 €,,0.00 K?
+"",,0 0 0,,0.00 €,,0.00 K?
+"",,0 0 0,,0.00 €,,0.00 K?
+"",,0 0 0,,0.00 €,,0.00 K?
+"",,0 0 0,,0.00 €,,0.00 K?
+"",,0 0 0,,0.00 €,,0.00 K?
+"",,0 0 0,,0.00 €,,0.00 K?
+"",,0 0 0,,0.00 €,,0.00 K?
+"",,0 0 0,,0.00 €,,0.00 K?
+"",,0 0 0,,0.00 €,,0.00 K?
+"",,0 0 0,,0.00 €,,0.00 K?
+"",,0 0 0,,0.00 €,,0.00 K?
+"",,0 0 0,,0.00 €,,0.00 K?
+"",,0 0 0,,0.00 €,,0.00 K?
+"",,0 0 0,,0.00 €,,0.00 K?
+"",,0 0 0,,0.00 €,,0.00 K?
+"",,0 0 0,,0.00 €,,0.00 K?
+Total:,,324,,,,"2,082.02 K?"
+"",,,,,Travel Expense Reimbursement Claim,,,,
+"",,,,,Domestic 2020,,,,
+"",Name and Address:,,,,"Tomáš Sak, Ed. Beneše 31, Plze?",,,,
+"",Start of Journey: 09/07/2020,,,at,08:30 hh:mm End: 09/07/2020 at,16:00,hh:mm,,
+"",Project-nr./Occasion/Destination:,,,,CZ-54-2002-0006 EXAM Customize_Porsche Engineering_2020,,,,
+"",Vehicle: Company Car,,X,Private Car,Train Airplane,,,,
+"",,,,,4AL4565,,,,
+"",Food expenses where provided by MicroNova.,,,,,,,,
+"",,,,,,Gross,,,
+"",,,,,,,VAT,,Net Amount
+"",,,,,,Amount,,,
+I.,Cost of Transport,,,,,,,,
+"","Train ticket(s), receipt enclosed",,,,,0.00 K?,,,0.00 K?
+"","Flight ticket, receipt enclosed",,,,,0.00 K?,,,0.00 K?
+"","Cost of company car usage (petrol/oil etc.), receipts enclosed",,,,,0.00 K?,,,0.00 K?
+"",Distance of private car usage,,,,,,,,
+"",,,km:,,"190 = 1,220.94 K?",,,,
+"",,,,,"1,220.94 K?","1,220.94 K?",,,"1,220.94 K?"
+II.,Expenses for accomodation and food payed by employer,,,,,,,,
+"",,,,on day of,on day of,,,,
+"",total,,,,,,,,
+"",,,,arrival,departure,,,,
+"",Accomodation costs per day,,,,= 0.00 K?,,,,
+"",Breakfast per day 0,,,,= 0.00 K?,,,,
+"",Lunch per day 0,,,,= 0.00 K?,,,,
+"",Dinner per day 0,,,,= 0.00 K? 0.00 K?,0.00 K?,0.00 K?,,0.00 K?
+III. Meal Allowance,,,,,,,,,
+"",Whole days (24 h) 0 allowance,,,0.00 K?,0.00 K? Tage getrennt 0,,,,
+"",Day of arrival 1 allowance,,,87.00 K?,87.00 K? Tage zusammen FALSE,,,,
+"",Day of departure 0 allowance,,,0.00 K?,0.00 K?,,,,
+"",,,,,87.00 K?,87.00 K?,,,87.00 K?
+IV. Curtailment,,,,,,,,,
+"",,,,Arrival,24h Departure,,,,
+"",Breakfast,,,0.00 K?,0.00 K? 0.00 K?,,,,
+"",Lunch,,,0.00 K?,0.00 K? 0.00 K?,,,,
+"",Dinner,,,0.00 K?,0.00 K? 0.00 K?,,,,
+"",Custom,,,0.00 K?,0.00 K? 0.00 K? 0.00 K?,0.00 K?,,,0.00 K?
+V.,additional travel expenses,,,,90.00 K?,90.00 K?,15.62 K?,,74.38 K?
+"",,,,,Total Amount:,"1,397.94 K?",15.62 K?,,"1,382.32 K?"
+"",31/07/2020,,,,./. Prepayment,,,,
+"",Date Signature (Applicant),,,,,,,,
+"",,,,,Final,,,,
+"",,,,,Payment/,"1,397.94 K?",,,
+"",Approved:,,,,,,,,
+"",,,,,Overpayme,,,,
+"",Signature (Approver),,,,,,,,
+"",,,,,,,"#VALUE!",,
+"",,Usage of private car 2020 cz_travelexpenses_1v11,,,,
+"",,,,foreign fuel,consumption of,
+"",,,,costs per litre,petrol,driving
+"",,kilometers way to driving kilometers,,,,
+Date,Departure (address),Destination (address),used fuel,regarding,according to,expenses
+"",,driven work distance to settle,,,,
+"",,,,enclosed,vehicle,Kc
+"",,,,receipt €,registration,
+09/07/2020,"E.Benese 540/31, Plzen, 30100","Radlická 714/113, Praha, 15800 95 0 0 95",diesel,0.00 €,7.0,610.47 K?
+09/07/2020,"Radlická 714/113, Praha, 15800","E.Benese 540/31, Plzen, 30100 95 0 0 95",diesel,0.00 €,7.0,610.47 K?
+"",,0 0 0,,0.00 €,,0.00 K?
+"",,0 0 0,,0.00 €,,0.00 K?
+"",,0 0 0,,0.00 €,,0.00 K?
+"",,0 0 0,,0.00 €,,0.00 K?
+"",,0 0 0,,0.00 €,,0.00 K?
+"",,0 0 0,,0.00 €,,0.00 K?
+"",,0 0 0,,0.00 €,,0.00 K?
+"",,0 0 0,,0.00 €,,0.00 K?
+"",,0 0 0,,0.00 €,,0.00 K?
+"",,0 0 0,,0.00 €,,0.00 K?
+"",,0 0 0,,0.00 €,,0.00 K?
+"",,0 0 0,,0.00 €,,0.00 K?
+"",,0 0 0,,0.00 €,,0.00 K?
+"",,0 0 0,,0.00 €,,0.00 K?
+"",,0 0 0,,0.00 €,,0.00 K?
+"",,0 0 0,,0.00 €,,0.00 K?
+"",,0 0 0,,0.00 €,,0.00 K?
+"",,0 0 0,,0.00 €,,0.00 K?
+"",,0 0 0,,0.00 €,,0.00 K?
+"",,0 0 0,,0.00 €,,0.00 K?
+"",,0 0 0,,0.00 €,,0.00 K?
+"",,0 0 0,,0.00 €,,0.00 K?
+"",,0 0 0,,0.00 €,,0.00 K?
+"",,0 0 0,,0.00 €,,0.00 K?
+"",,0 0 0,,0.00 €,,0.00 K?
+"",,0 0 0,,0.00 €,,0.00 K?
+"",,0 0 0,,0.00 €,,0.00 K?
+"",,0 0 0,,0.00 €,,0.00 K?
+"",,0 0 0,,0.00 €,,0.00 K?
+"",,0 0 0,,0.00 €,,0.00 K?
+"",,0 0 0,,0.00 €,,0.00 K?
+Total:,,190,,,,"1,220.94 K?"
+Additional Travel Expenses 2020 1v11,
+"",
+Please choose the currency: Czech koruna / K?,
+Date: Description: Net: Vat,Gross:
+09/07/2020 Parking 7 4.38 K? 15.62 K?,9 0.00 K?
+"",-  K?
+"",-  K?
+"",-  K?
+"",-  K?
+"",-  K?
+"",-  K?
+"",-  K?
+Miscellaneous,
+"",-  K?
+"",-  K?
+"",-  K?
+"",-  K?
+"",-  K?
+"",-  K?
+Total: 7 4.38 K? 15.62 K?,9 0.00 K?
+Pokladní doklad,,
+OC Galerie Butovice,,
+"711/10, 170 OO",?,
+Centrála,,
+"115/53, 160 OOP raha 6",,
+ICO: 26116570 DIC:,,
+?íslo: 13587/2020,,
+stanice: Automat3,,
+Druh platbu: Automat,,
+Vutvofreno•. 15:07,,
+Oll?eno Cena,,
+"ParkOk)l le go, oo 21 , 00 0",,0
+2048703318731,,
+Zaplaceno 12:19,,
+15:06,,
+Platnost 09:19,,
+Platnost 09:19,,
+"98,88 CZK",,
+Základ DPH Ce Ikein,,
+"74,38 15,62","98,00",
+tlade by GREENC enter,,
+"",,,,,Travel Expense Reimbursement Claim,,,,
+"",,,,,Domestic 2020,,,,
+"",Name and Address:,,,,"Tomáš Sak, Ed. Beneše 31, Plze?",,,,
+"",Start of Journey: 20/07/2020,,,at,09:30 hh:mm End: 20/07/2020 at,19:00,,hh:mm,
+"",Project-nr./Occasion/Destination:,,,,cz.10 / annual interviews,,,,
+"",Vehicle: Company Car,,X,Private Car,Train Airplane,,,,
+"",,,,,4AL4565,,,,
+"",Food expenses where provided by MicroNova.,,,,,,,,
+"",,,,,,Gross,,,
+"",,,,,,,,VAT,Net Amount
+"",,,,,,Amount,,,
+I.,Cost of Transport,,,,,,,,
+"","Train ticket(s), receipt enclosed",,,,,0.00 K?,,,0.00 K?
+"","Flight ticket, receipt enclosed",,,,,0.00 K?,,,0.00 K?
+"","Cost of company car usage (petrol/oil etc.), receipts enclosed",,,,,0.00 K?,,,0.00 K?
+"",Distance of private car usage,,,,,,,,
+"",,,km:,,"438 = 2,814.59 K?",,,,
+"",,,,,"2,814.59 K?","2,814.59 K?",,,"2,814.59 K?"
+II.,Expenses for accomodation and food payed by employer,,,,,,,,
+"",,,,on day of,on day of,,,,
+"",total,,,,,,,,
+"",,,,arrival,departure,,,,
+"",Accomodation costs per day,,,,= 0.00 K?,,,,
+"",Breakfast per day 0,,,,= 0.00 K?,,,,
+"",Lunch per day 0,,,,= 0.00 K?,,,,
+"",Dinner per day 0,,,,= 0.00 K? 0.00 K?,0.00 K?,,0.00 K?,0.00 K?
+III. Meal Allowance,,,,,,,,,
+"",Whole days (24 h) 0 allowance,,,0.00 K?,0.00 K? Tage getrennt 0,,,,
+"",Day of arrival 1 allowance,,,87.00 K?,87.00 K? Tage zusammen FALSE,,,,
+"",Day of departure 0 allowance,,,0.00 K?,0.00 K?,,,,
+"",,,,,87.00 K?,87.00 K?,,,87.00 K?
+IV. Curtailment,,,,,,,,,
+"",,,,Arrival,24h Departure,,,,
+"",Breakfast,,,0.00 K?,0.00 K? 0.00 K?,,,,
+"",Lunch,,,0.00 K?,0.00 K? 0.00 K?,,,,
+"",Dinner,,,0.00 K?,0.00 K? 0.00 K?,,,,
+"",Custom,,,0.00 K?,0.00 K? 0.00 K? 0.00 K?,0.00 K?,,,0.00 K?
+V.,additional travel expenses,,,,0.00 K?,0.00 K?,,0.00 K?,0.00 K?
+"",,,,,Total Amount:,"2,901.59 K?",,0.00 K?,"2,901.59 K?"
+"",31/07/2020,,,,./. Prepayment,,,,
+"",Date Signature (Applicant),,,,,,,,
+"",,,,,Final,,,,
+"",,,,,Payment/,"2,901.59 K?",,,
+"",Approved:,,,,,,,,
+"",,,,,Overpayme,,,,
+"",Signature (Approver),,,,,,,,
+"",,,,,,,,"#VALUE!",
+"",,Usage of private car 2020 cz_travelexpenses_1v11,,,,
+"",,,,foreign fuel,consumption of,
+"",,,,costs per litre,petrol,driving
+"",,kilometers way to driving kilometers,,,,
+Date,Departure (address),Destination (address),used fuel,regarding,according to,expenses
+"",,driven work distance to settle,,,,
+"",,,,enclosed,vehicle,Kc
+"",,,,receipt €,registration,
+20/07/2020,"E.Benese 540/31, Plzen, 30100","Palackého 3145, Jablonec, 46601 219 0 0 219",diesel,0.00 €,7.0,"1,407.29 K?"
+20/07/2020,"Palackého 3145, Jablonec, 46601","E.Benese 540/31, Plzen, 30100 219 0 0 219",diesel,0.00 €,7.0,"1,407.29 K?"
+"",,0 0 0,,0.00 €,,0.00 K?
+"",,0 0 0,,0.00 €,,0.00 K?
+"",,0 0 0,,0.00 €,,0.00 K?
+"",,0 0 0,,0.00 €,,0.00 K?
+"",,0 0 0,,0.00 €,,0.00 K?
+"",,0 0 0,,0.00 €,,0.00 K?
+"",,0 0 0,,0.00 €,,0.00 K?
+"",,0 0 0,,0.00 €,,0.00 K?
+"",,0 0 0,,0.00 €,,0.00 K?
+"",,0 0 0,,0.00 €,,0.00 K?
+"",,0 0 0,,0.00 €,,0.00 K?
+"",,0 0 0,,0.00 €,,0.00 K?
+"",,0 0 0,,0.00 €,,0.00 K?
+"",,0 0 0,,0.00 €,,0.00 K?
+"",,0 0 0,,0.00 €,,0.00 K?
+"",,0 0 0,,0.00 €,,0.00 K?
+"",,0 0 0,,0.00 €,,0.00 K?
+"",,0 0 0,,0.00 €,,0.00 K?
+"",,0 0 0,,0.00 €,,0.00 K?
+"",,0 0 0,,0.00 €,,0.00 K?
+"",,0 0 0,,0.00 €,,0.00 K?
+"",,0 0 0,,0.00 €,,0.00 K?
+"",,0 0 0,,0.00 €,,0.00 K?
+"",,0 0 0,,0.00 €,,0.00 K?
+"",,0 0 0,,0.00 €,,0.00 K?
+"",,0 0 0,,0.00 €,,0.00 K?
+"",,0 0 0,,0.00 €,,0.00 K?
+"",,0 0 0,,0.00 €,,0.00 K?
+"",,0 0 0,,0.00 €,,0.00 K?
+"",,0 0 0,,0.00 €,,0.00 K?
+"",,0 0 0,,0.00 €,,0.00 K?
+Total:,,438,,,,"2,814.59 K?"
