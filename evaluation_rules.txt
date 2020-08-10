@@ -1,0 +1,4 @@
+when an employee has meal ticket for the day?
+    1. employee has to be at work for 6 or more hours
+    2. if an employee is on a business trip in a given day that is longer than 6 hours,
+    he loses the right to a meal ticket, because food expenses are covered in travel costs
