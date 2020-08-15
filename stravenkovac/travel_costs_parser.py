@@ -1,32 +1,45 @@
 import csv
 import tabula
 
-import Exceptions_stravenkovac
-from parser_interface import ParserInterface
+
 import pandas as pd
 import re
 from datetime import datetime
 import copy
 import os
 
+from stravenkovac.common_data import required_WH, dictionary_TH
+from stravenkovac.exceptions_stravenkovac import DateIsInappropriate
+from stravenkovac.parser_interface import ParserInterface
+
+
 class TravelCostsParser(ParserInterface):
-    def __init__(self, path, path_to):
+    """Initialize data for TravelCostParsel and create a csv file if it does not exist"""
+    def __init__(self, path, path_to, employee_name):
         self.initial_path = path
         if not os.path.exists(path_to):
             with open(path_to, 'a'):
                 pass
         self.path_to_csv = path_to
+        self.employee_name = employee_name
 
     def __parse_date(self, list_of_journeys, str_to_process):
+        """Parse dates of the appropriate format"""
         date_entity = []
-        date = re.findall(r"[\d]{1,2}-[\d]{1,2}-[\d]{2,4}", str_to_process)
-        print(date)
+        date = re.findall(r"[\d]{1,2}/[\d]{1,2}/[\d]{2,4}", str_to_process)
+        # date = re.findall(r"[\d]{1,2}-[\d]{1,2}-[\d]{2,4}", str_to_process)
         time = re.findall(r"[\d]{1,2}:[\d]{1,2}", str_to_process)
-        for (date_particular, time_particular) in zip(date, time):
-            resulted_date = date_particular + ' ' + time_particular
-            date_entity.append(datetime.strptime(resulted_date, '%d-%m-%y %H:%M'))
-        list_of_journeys.append(copy.deepcopy(date_entity))
-        date_entity.clear()
+        if date and time:
+            for (date_particular, time_particular) in zip(date, time):
+                resulted_date = date_particular + ' ' + time_particular
+                try:
+                    date_entity.append(datetime.strptime(resulted_date, '%m/%d/%Y %H:%M'))
+                #     date_entity.append(datetime.strptime(resulted_date, '%d-%m-%y %H:%M'))
+                except ValueError:
+                    raise ValueError(
+                        "Error: Incorrect date format. It must be like 'dd-mm-yy' (ex: '01-07-20 12:00').")
+            list_of_journeys.append(copy.deepcopy(date_entity))
+            date_entity.clear()
         return list_of_journeys
 
     def load_data_source(self):
@@ -54,18 +67,29 @@ class TravelCostsParser(ParserInterface):
                 if name_str in line:
                     try:
                         emploee_name = line.split(",,,")[1]
+                        print("Employee ", emploee_name)
                     except IndexError:
                         print("Employee name was not found")
                 if date_str in line:
                     list_of_journeys = self.__parse_date(list_of_journeys, line)
 
-        print(list_of_journeys)
-        for date_list in list_of_journeys:
-            if date_list[0] > date_list[1]:
-                raise Exceptions_stravenkovac.DateIsInappropriate("The time of starting the journey is smaller than the time of its end")
-            print(date_list[1] - date_list[0])
-    # def __init__(self):
-    #     self.travel_info = {}
-    #
-    # def load_data_sourse(self, input_path):
-    #     pass
+        print("List ", list_of_journeys)
+        if list_of_journeys:
+            stravenky_counter = 0
+            for date_list in list_of_journeys:
+                if date_list[0] > date_list[1]:
+                    raise DateIsInappropriate("The time of starting the journey is smaller than the time of its end")
+                overall_travel_time_in_hours = (date_list[1] - date_list[0]).total_seconds()/3600
+                print(overall_travel_time_in_hours)
+                if overall_travel_time_in_hours > required_WH:
+                    stravenky_counter += 1
+            if stravenky_counter > 0:
+                dictionary_TH[self.employee_name] = stravenky_counter
+            else:
+                dictionary_TH[self.employee_name] = 0
+
+        for k, v in dictionary_TH.items():
+            print(k, v)
+
+
+

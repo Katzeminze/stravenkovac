@@ -5,4 +5,9 @@ pdf_path_travel_costs = "C:/Users/Nyrobtseva/Documents/Python_Parser_stravenky/c
 csv_path_travel_costs = "travel_costs.csv"  # should be changed to smth better
 
 
-"""Error messages"""
+"""Dictionaries"""
+dictionary_WH = {}
+dictionary_TH = {}
+
+"""Constatnts"""
+required_WH = 6

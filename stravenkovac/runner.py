@@ -1,10 +1,10 @@
 import os
 import re
 import tabula
-from Exceptions_stravenkovac import FolderNotFound
-from common_data import csv_path_month_hour, pdf_path_travel_costs, csv_path_travel_costs
-from monthly_hours_parser import MonthlyHoursParser
-from travel_costs_parser import TravelCostsParser
+
+from stravenkovac import csv_path_travel_costs
+from stravenkovac.exceptions_stravenkovac import FolderNotFound
+from stravenkovac.travel_costs_parser import TravelCostsParser
 
 
 class Runner:
@@ -44,31 +44,37 @@ class Runner:
             item_path = os.path.join(folder_by_name, item)
             if os.path.isdir(item_path) and item.startswith(str(self.year)):
                 path_to_year_folder = item_path
+                break
             else:
                 continue
         return path_to_year_folder
 
-    def __create_travel_object(self, folder_path):
+    def __create_travel_object(self, folder_path, employee_name):
+        """Create object for parsing travel costs"""
+        print("folder is " + folder_path)
         for file in os.listdir(folder_path):
             pdf = os.path.join(folder_path, file)
             if os.path.isfile(pdf) and pdf.endswith(".pdf"):
                 print(pdf)
-                travelCosts = TravelCostsParser(pdf, csv_path_travel_costs)
+                travelCosts = TravelCostsParser(pdf, csv_path_travel_costs, employee_name)
                 travelCosts.load_data_source()
                 travelCosts.extract_data()
 
     def __check_existence_travel(self):
+        """Collect all pdfs pathes for the given year and month"""
         month_folder = ''
+        employee_name = None
         for item in os.listdir(self.directory_path):
             if os.path.isdir(os.path.join(self.directory_path, item)) and not item.startswith('_'):
                 print(item)
+                employee_name = item
                 year_folder = self.__parse_name_travel(os.path.join(self.directory_path, item))
-                print(year_folder)
                 for month in os.listdir(year_folder):
-                    if str(self.month) in month:
-                        month_folder = os.path.join(year_folder, month)
-                        print(month_folder)
-                        self.__create_travel_object(month_folder)
+                    month_folder = os.path.join(year_folder, month)
+                    if os.path.isdir(month_folder) and str(self.month) in month:
+                        self.__create_travel_object(month_folder, employee_name)
+                    else:
+                        continue
             else:
                 print("File directory is empty or file format is wrong")
                 return None

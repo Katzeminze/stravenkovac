@@ -9,8 +9,8 @@ from stravenkovac.runner import Runner
 
 initial_month_directory = r"S:/20_Bericht/2020"
 initial_travel_directory = r"S:/30_Reisekosten"
-example = r"C:/Users/Hpkate/Google Drive/Python_Parser_stravenky/Reise"
-example_mh = r"C:/Users/Hpkate/Google Drive/Python_Parser_stravenky/2020"
+example = r"D:/Python/stravenkovac/Reise"
+example_mh = r"D:/Python/stravenkovac"
 
 if __name__ == "__main__":
     # starting the program by providing path to pdf and the month in case of month-hour
